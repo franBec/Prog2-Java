@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="PanelGenerico" max="32767" attributes="0"/>
+                  <Component id="labelTitulo" max="32767" attributes="0"/>
+                  <Component id="panelSeleccionarPersona" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="botonGuardar" linkSize="7" min="-2" pref="363" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="botonSalir" linkSize="7" min="-2" pref="344" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Component id="panelTipoPersona" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="labelTitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Component id="PanelGenerico" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="panelSeleccionarPersona" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="panelTipoPersona" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="botonGuardar" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="botonSalir" min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="PanelGenerico">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="ScrollPaneTabla" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="labelDomicilio" min="-2" pref="289" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="textFieldDomicilio" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="labelNombreYApellido" pref="289" max="32767" attributes="0"/>
+                                      <Component id="labelDNI" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="textFieldDNI" max="32767" attributes="0"/>
+                                      <Component id="textFieldNombreYApellido" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelUsuario" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelHorarios" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Component id="panelAgregarHorario" alignment="1" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="labelNombreYApellido" linkSize="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="textFieldNombreYApellido" linkSize="1" min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelDNI" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textFieldDNI" linkSize="1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelDomicilio" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textFieldDomicilio" linkSize="1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="labelUsuario" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="labelHorarios" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="ScrollPaneTabla" min="-2" pref="106" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="panelAgregarHorario" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="labelNombreYApellido">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nombre y Apellido:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelDNI">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DNI: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelDomicilio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Domicilio"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelUsuario">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Usuario"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="ScrollPaneTabla">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="TablaHorariosTrabajo">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="3" rowCount="0">
+                    <Column editable="true" title="Dia" type="java.lang.Object"/>
+                    <Column editable="true" title="Horario de Entrada" type="java.lang.Object"/>
+                    <Column editable="true" title="Horario de Salida" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Tabla de horarios de trabajo de la nueva persona.&#xa;-- Para agregar nuevos horarios complete los campos debajo de la tabla y presione el bot&#xf3;n agregar&#xa;-- Para eliminar un horario ingresado en la tabla realize Doble Click sobre dicho horario. El sistema pedir&#xe1; confirmaci&#xf3;n para eliminar el horario"/>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="labelHorarios">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Horarios de Trabajo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textFieldNombreYApellido">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Nombre y Apellido de la nueva persona"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textFieldDNI">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Ingrese aqu&#xed; el DNI de la nueva persona"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="textFieldDomicilio">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Ingrese aqu&#xed; el domicio de la nueva persona"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="panelAgregarHorario">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="labelDia" min="-2" pref="27" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="comboBoxDia" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="labelHoraIngreso" min="-2" pref="78" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="spinnerHoraIngreso" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="spinnerMinutoIngreso" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="labelHoraSalida" min="-2" pref="81" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="spinnerHoraSalida" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="spinnerMinutoSalida" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="botonAgregarHorario" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelDia" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="comboBoxDia" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelHoraIngreso" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinnerHoraIngreso" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinnerMinutoIngreso" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelHoraSalida" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinnerHoraSalida" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinnerMinutoSalida" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botonAgregarHorario" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="labelDia">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Dia"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboBoxDia">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="7">
+                    <StringItem index="0" value="LUNES"/>
+                    <StringItem index="1" value="MARTES"/>
+                    <StringItem index="2" value="MIERCOLES"/>
+                    <StringItem index="3" value="JUEVES"/>
+                    <StringItem index="4" value="VIERNES"/>
+                    <StringItem index="5" value="SABADO"/>
+                    <StringItem index="6" value="DOMINGO"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Elija el d&#xed;a de la semana al cual pertenece el intervalo de tiempo que comprende el horario"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelHoraIngreso">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hora de ingreso"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="spinnerHoraIngreso">
+              <Properties>
+                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                  <SpinnerModel initial="0" maximum="23" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Hora Reloj del momento de ingreso a trabajar de la persona"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="spinnerMinutoIngreso">
+              <Properties>
+                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                  <SpinnerModel initial="0" maximum="59" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Minuto Reloj del momento de ingreso al trabajo de la nueva persona"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelHoraSalida">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hora de salida"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="spinnerHoraSalida">
+              <Properties>
+                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                  <SpinnerModel initial="0" maximum="23" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Hora Reloj del momento de salida de trabajo de la nueva persona"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="spinnerMinutoSalida">
+              <Properties>
+                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                  <SpinnerModel initial="0" maximum="59" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Minuto Reloj del momento de salida del trabajo de la nueva persona"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="botonAgregarHorario">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar"/>
+                <Property name="toolTipText" type="java.lang.String" value="Agregue un nuevo horario a la tabla de horarios de la nueva persona"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonAgregarHorarioActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="labelTitulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Informaci&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="panelSeleccionarPersona">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Seleccione el tipo de persona que desea ingresar al sistema"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="radioDirectivo" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="radioPasante" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="radioPreceptor" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="radioProfesor" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="radioSecretario" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="radioDirectivo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="radioPasante" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="radioPreceptor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="radioProfesor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="radioSecretario" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JRadioButton" name="radioDirectivo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Directivo"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="radioDirectivoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="radioPasante">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pasante"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="radioPreceptor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Preceptor"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="radioProfesor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Profesor"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="radioSecretario">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Secretario"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="botonSalir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salir"/>
+        <Property name="toolTipText" type="java.lang.String" value="Presione para cancelar la operaci&#xf3;n..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonSalirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="botonGuardar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Guardar"/>
+        <Property name="toolTipText" type="java.lang.String" value="Presione para finalizar la operaci&#xf3;n de Registro de la nueva persona en el sistema"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonGuardarActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="panelTipoPersona">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="450" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </SubComponents>
+</Form>
